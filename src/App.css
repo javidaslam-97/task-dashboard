@@ -1,0 +1,78 @@
+div#root {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+.App {
+  width: 100%;
+  height: 100%;
+}
+.home-page-container {
+  height: 100%;
+}
+.overall-body-container {
+  height: 100%;
+  width: auto;
+  display: flex;
+}
+.left-sidebar {
+  width: calc(100% - 80%);
+  border-right: 1px solid #d5d2d2;
+}
+.inner-body-container {
+  height: 100%;
+  background-color: #f9f8f8;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  color: #013CC6;
+  height: 54px;
+  align-items: end;
+}
+.common-padding.list-group-item {
+  padding: 0.5rem;
+  border: 0px;
+  display: flex;
+  column-gap: 12px;
+  background-color: #fff;
+  color: black;
+}
+.sidebar-item {
+  margin-top: 12px;
+  width: 100%;
+}
+.sidebar-item ul.list-group {
+  padding-left: 0px;
+  border: 0px;
+  border-radius: 0px;
+}
+.common-padding.list-group-item.active {
+  border-left: 4px solid blue;
+}
+.search-icon {
+  position: absolute;
+  top: 8px;
+  z-index: 9999;
+  margin-left: 6px !important;
+}
+.search-box input.form-control {
+  padding-left: 28px;
+}
+.dashboard-page.container-fluid {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 100%;
+}
+.right-ride.bell {
+  display: flex;
+  justify-content: end;
+  align-self: center;
+}
+.row-common-padding{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
