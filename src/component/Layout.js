@@ -9,7 +9,7 @@ const Layout = () => {
           <SidebarComponent />
         </div>
         <div className="inner-body-container">
-          <Dashboard />
+          <Dashboard/>
         </div>
       </div>
     </div>
